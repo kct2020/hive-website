@@ -9,11 +9,11 @@ import "./components/styles.css";
 // Main application component that renders navigation and routes
 function App() {
   // Fetch recent posts from the specified user using the usePosts hook
-  const { recentPosts } = usePosts("etblink");
+  const { recentPosts } = usePosts("keithtaylor");
 
   return (
     <div className="app">
-      <h1 className="app__title">Welcome to ETBlink's Blog</h1>
+      <h1 className="app__title">Welcome to Keith Taylor's Blog</h1>
       <BrowserRouter>
         <nav className="app__nav">
           <Link to="/">Home</Link>
