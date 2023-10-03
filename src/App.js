@@ -23,6 +23,7 @@ function App() {
               Recommended Bloggers
             </Link>
             <div className="dropdown-content">
+              <Link to="/blogger/edicted">keithtaylor</Link>
               <Link to="/blogger/edicted">edicted</Link>
               <Link to="/blogger/theycallmedan">theycallmedan</Link>
               <Link to="/blogger/taskmaster4450">taskmaster4450</Link>
