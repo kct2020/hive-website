@@ -18,7 +18,7 @@ export async function getUserAccount(username) {
 }
 
 // Function to fetch posts with specified limit and discussion type
-async function fetchPosts(username, limit, discussionType = "blog") {
+async function fetchPosts(username, limit, discussionType = "post") {
   try {
     const posts = await db.getDiscussions(discussionType, {
       tag: username,
